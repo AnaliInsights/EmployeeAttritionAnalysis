@@ -119,27 +119,77 @@ As it can be observed clearly above, some columns have outliers but not all outl
        
 ### Exploratory Data Analysis
 #### Data Visualization
+
+##### Age Vs MonthlyIncome
   ![Age vs MonthlyIncome](images/AgevsMonthlyIncome.PNG) 
     
 The scatter plot analysis reveals that **younger employees**, particularly those **aged between 20 and 40**, are the ones leaving the company. This is evident from the **concentration of yellow dots** within this age range, indicating a higher turnover rate among younger staff. The pattern suggests that younger employees may be more likely to seek new opportunities, career growth, or better work-life balance, contributing to their decision to leave. Understanding these trends can help the company address potential factors influencing employee retention within this age group.
 
+##### Attrition vs DistanceFromHome
   ![Attrition vs DistanceFromHome](images/AttritionvsDistanceFromHome.PNG)
 
 The bar chart analysis indicates that **employees who live farther from home are more likely to leave the company**. This is evident from the higher bars representing employee attrition at greater distances. The trend suggests that **long commutes or relocation challenges** could be key factors influencing their decision to leave. Employees who travel long distances to work may experience increased stress, reduced job satisfaction, or difficulty maintaining work-life balance, ultimately leading to higher turnover rates. Addressing these concerns through flexible work arrangements or transportation support could help improve retention
 
+##### Attrition vs JobLevel
   ![Attrition vs JobLevel](images/AttritionvsJobLevel.PNG)
 
 The bar chart analysis shows that **employees at lower job levels are the ones leaving the company at a higher rate**. This is evident from the taller bars representing employee attrition in the lower job levels. The trend suggests that **lack of career growth opportunities**, **lower salaries**, or **job dissatisfaction** could be contributing factors to their decision to leave. Employees in entry-level positions may seek better opportunities elsewhere for career advancement or improved compensation. Implementing strategies such as professional development programs and clear promotion pathways could help improve retention among lower-level employees.
 
+##### Attrition vs MonthlyIncome
   ![Attrition vs MonthlyIncome](images/AttritionvsMonthlyIncome.PNG)
+  
 The bar chart analysis reveals that **employees earning lower salaries are more likely to leave the company**. This is evident from the higher bars representing employee attrition in the lower salary ranges. The trend suggests that **financial dissatisfaction**, **limited growth opportunities**, or **better-paying job offers elsewhere** could be key reasons for their departure. Employees with lower earnings may seek roles that offer higher compensation, better benefits, or career advancement. Addressing salary concerns through competitive pay structures and performance-based incentives could help improve employee retention.
 
+##### Attrition vs YearAtCompany
   ![Attrition vs YearsAtCompany](images/AttritionvsYearsAtCompany.PNG)
 
 The bar chart analysis indicates that **employees with five or fewer years at the company are the ones leaving at a higher rate**. This is evident from the taller bars representing employee attrition within this tenure range. The trend suggests that **lack of career growth**, **job dissatisfaction**, or **better opportunities elsewhere** could be influencing their decision to leave. Newer employees may feel limited in advancement prospects or seek a work environment that better aligns with their career goals. Enhancing employee engagement, providing mentorship programs, and offering clear career progression paths could help improve retention among early-career employees.
 
+##### Overtime vs Attrition
   ![Overtime vs Attrition](images/OvertimevsAttrition.PNG)
+  
 The bar chart analysis shows that **employees who work overtime on regular basis are more likely to leave the company**. This is evident from the higher bars representing employee attrition among those with extended working hours. The trend suggests that **workload stress**, **burnout**, and **lack of work-life balance** could be key factors driving their decision to leave. Employees who frequently work overtime may experience exhaustion, reduced job satisfaction, or seek roles with better time management and flexibility. Implementing strategies such as workload distribution, overtime compensation, and promoting a healthier work-life balance could help improve employee retention.
 
+##### Interactive Dashboard on Tableau Public Online
+  ![Interactive Dashboard](images/interactive_dashboard.PNG)
+
+#### Correlation Results
+Correlation Matrix of employee attrition data shows the correlation between various factors and employee attrition. Here's a summary of the key findings:
+
+##### Strongest Positive Correlations with Attrition
+
+- **OverTime (0.246):** Employees who work overtime are more likely to leave.
+- **Single (0.175):** Single employees have a higher likelihood of attrition.
+- **Sales Representative (0.157):** Employees in this role tend to leave more frequently.
+- **Travel Rarely (0.115):** Employees who travel frequently have a higher likelihood of leaving.
+- **Laboratory Technician (0.098):** Employees in this role show a moderate tendency to leave.
+
 ### Results and Findings
+
+- Employees with **high overtime**, **lower tenure**, **lower job levels**, and **lower salaries** are more likely to leave.
+- **Job satisfaction** and **higher pay** reduce attrition.
+- **Single employees** and **Sales Representatives** are more prone to leaving.
+- **Less Frequent travel** slightly increases attrition
+
 ### Recommendations
+
+- **For employees who live far away**:
+   - Offer remote work or hybrid options for employees with long commutes.
+   - Offer travel benefits to reduce financial burdens.
+   - Offer relocation assistance for employees to move closer.
+
+- **Employees who work as Sales Representatives**
+   - Implement realistic sales targets and performance incentives that encourage retention.
+   - Offer leadership training and pathways for sales reps to transition into higher roles.
+   - Provide mentorship programs, mental health resources, and travel allowances for frequent travelers.
+     
+- **Employees who are single which means the young guys in the organization who are striving to make it in life**
+   - Provide clear career progression plans to retain single employees.
+   - Support flexibility and wellness programs that appeal to employees with different lifestyles.
+   - Ensure competitive pay and benefits that make staying attractive, regardless of marital status.
+
+- **Employees who travel-rarely**
+   - **Offer training programs**, **mentorship**, and **job rotations** to ensure employees have professional growth opportunities, even if they travel less.
+   - Provide chances for **remote collaboration on key projects** to give them exposure to different teams and markets.
+   - Ensure that less frequent travelers do not **feel overlooked for promotions or career advancements** compared to those who travel more.
+   - Implement **recognition programs** to appreciate their contributions and keep them motivated.
