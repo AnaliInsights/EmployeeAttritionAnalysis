@@ -152,7 +152,7 @@ The bar chart analysis shows that **employees who work overtime on regular basis
 
 ##### Interactive Dashboard on Tableau Public Online 
   ![Interactive Dashboard](images/interactive_dashboard.PNG)
-  [View Dashboard](https://public.tableau.com/app/profile/anali.rono/viz/EmployeeAttritionDashboard_17412642622350/EmployeeAttritionDashboard)
+  [View Dashboard](https://public.tableau.com/views/EmployeeAttritionDashboard_17412642622350/EmployeeAttritionDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 #### Correlation Results
 Correlation Matrix of employee attrition data shows the correlation between various factors and employee attrition. Here's a summary of the key findings:
 
