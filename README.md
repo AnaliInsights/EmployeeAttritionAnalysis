@@ -174,19 +174,19 @@ Correlation Matrix of employee attrition data shows the correlation between vari
 ### Recommendations
 
 - **For employees who live far away**:
-   - Offer remote work or hybrid options for employees with long commutes.
-   - Offer travel benefits to reduce financial burdens.
-   - Offer relocation assistance for employees to move closer.
+   - Offer **remote work or hybrid options** for employees with long commutes.
+   - Offer **travel benefits** to reduce financial burdens.
+   - Offer **relocation assistance** for employees to move closer.
 
 - **Employees who work as Sales Representatives**
-   - Implement realistic sales targets and performance incentives that encourage retention.
-   - Offer leadership training and pathways for sales reps to transition into higher roles.
-   - Provide mentorship programs, mental health resources, and travel allowances for frequent travelers.
+   - Implement **realistic sales targets** and **performance incentives** that encourage retention.
+   - Offer **leadership training** and pathways for sales reps to transition into higher roles.
+   - Provide mentorship programs, **mental health resources**, and travel allowances for frequent travelers.
      
 - **Employees who are single which means the young guys in the organization who are striving to make it in life**
-   - Provide clear career progression plans to retain single employees.
-   - Support flexibility and wellness programs that appeal to employees with different lifestyles.
-   - Ensure competitive pay and benefits that make staying attractive, regardless of marital status.
+   - Provide clear **career progression** plans to retain single employees.
+   - Support **flexibility** and **wellness programs that appeal to employees** with different lifestyles.
+   - Ensure **competitive pay** and **benefits** that make staying attractive, regardless of marital status.
 
 - **Employees who travel-rarely**
    - **Offer training programs**, **mentorship**, and **job rotations** to ensure employees have professional growth opportunities, even if they travel less.
