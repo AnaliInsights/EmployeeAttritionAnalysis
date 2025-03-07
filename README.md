@@ -150,9 +150,9 @@ The bar chart analysis indicates that **employees with five or fewer years at th
   
 The bar chart analysis shows that **employees who work overtime on regular basis are more likely to leave the company**. This is evident from the higher bars representing employee attrition among those with extended working hours. The trend suggests that **workload stress**, **burnout**, and **lack of work-life balance** could be key factors driving their decision to leave. Employees who frequently work overtime may experience exhaustion, reduced job satisfaction, or seek roles with better time management and flexibility. Implementing strategies such as workload distribution, overtime compensation, and promoting a healthier work-life balance could help improve employee retention.
 
-##### Interactive Dashboard on Tableau Public Online
+##### Interactive Dashboard on Tableau Public Online 
   ![Interactive Dashboard](images/interactive_dashboard.PNG)
-
+  [View Dashboard](https://public.tableau.com/app/profile/anali.rono/viz/EmployeeAttritionDashboard_17412642622350/EmployeeAttritionDashboard)
 #### Correlation Results
 Correlation Matrix of employee attrition data shows the correlation between various factors and employee attrition. Here's a summary of the key findings:
 
